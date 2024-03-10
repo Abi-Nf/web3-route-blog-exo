@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.global-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.global-header,
+.global-footer
+{
+  padding: 1.2rem;
+  display: flex;
+  font-size: 1.4rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.global-header {
+  border-bottom: 2px solid grey;
+}
+
+.global-footer {
+  border-top: 2px solid grey;
+}
+
+.global-body-container {
+  height: 100%;
+  flex-shrink: 1;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}

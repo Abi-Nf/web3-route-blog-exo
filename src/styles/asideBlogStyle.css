@@ -1,0 +1,16 @@
+.aside-container {
+  height: 100%;
+  padding: 2rem;
+  border-right: 2px solid grey;
+}
+
+.aside-title {
+  font-size: 1.3rem;
+  padding: 1.2rem 0.2rem;
+}
+
+.aside-list {
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}

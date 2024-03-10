@@ -1,0 +1,30 @@
+.blog-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-content-centered {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.blog-image {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.blog-image-path {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-image-full {
+  width: 30rem;
+  height: 30rem;
+}
